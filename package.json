@@ -10,7 +10,7 @@
     "fileSample": "bun run samples/file.tsx && cat samples/data/test.json",
     "httpSample": "bun run samples/server.tsx"
   },
-  "dependencies": {},
+  "dependencies": { "baojs": "^0.2.1", "png-to-ico": "^2.1.8", "serve-static-bun": "^0.5.3" },
   "devDependencies": {
     "@types/react": "^18.2.21",
     "bun-types": "latest",
